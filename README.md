@@ -1,8 +1,8 @@
 ---
 description: >-
-  This documentation is for anyone looking to learn about Atomic Swaps and give
-  a comprehensive guide on how to integrate Boltz Swaps into their own App.
+  This documentation is written for anyone looking to learn about Boltz, what
+  you can do with it and how to integrate Boltz into your own app.
 ---
 
-# Welcome to the Documentation of Boltz
+# Welcome to the Documentation of Boltz and Beyond! ✨
 
