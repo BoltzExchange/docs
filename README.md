@@ -6,7 +6,7 @@ cover: .gitbook/assets/Screenshot from 2023-07-27 15-23-18.png
 coverY: 0
 ---
 
-# Welcome to the Home of Boltz Documentation! ✨
+# Welcome to the Home of Boltz Docs! ✨
 
 ## What is Boltz
 
@@ -30,7 +30,7 @@ If you are looking to run the official Boltz Web App served at [boltz.exchange](
 
 ## Boltz LND
 
-If you are looking to use Boltz to manage liquidity of your [LND](https://github.com/lightningnetwork/lnd) node, check out our Boltz LND Docs&#x20;
+If you are looking to use Boltz to manage liquidity of your [LND](https://github.com/lightningnetwork/lnd) node, check out our Boltz LND Docs:&#x20;
 
 {% content-ref url="http://127.0.0.1:5000/o/SPM8mTvJyc7OIzGL3HD7/s/ltqiap1Tem0DOTru1DRG/" %}
 [Client: Boltz LND](http://127.0.0.1:5000/o/SPM8mTvJyc7OIzGL3HD7/s/ltqiap1Tem0DOTru1DRG/)
