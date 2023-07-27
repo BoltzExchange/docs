@@ -6,34 +6,34 @@ cover: .gitbook/assets/Screenshot from 2023-07-27 15-23-18.png
 coverY: 0
 ---
 
-# Welcome to the Documentation of Boltz! ✨
+# Welcome to the Home of Boltz Documentation! ✨
 
 ## What is Boltz
 
-Boltz is a privacy first, non-custodial bitcoin exchange built on top of layer two scaling technologies like the Liquid and Lightning Networks. With Boltz, users can seamlessly move their Bitcoin between different layers e.g. in order to use advanced financial products or manage liquidity of their lightning channels. All Boltz Swaps are atomic and thus non-custodial - users can always rest assured to be in full control of their funds throughout the swap flow.
+Boltz is a privacy first, non-custodial bitcoin exchange built to bridge different layers of Bitcoin like the [Liquid](https://liquid.net/) and [Lightning Network](https://lightning.network/). With Boltz, users can seamlessly swap their Bitcoin between different layers to e.g. use advanced financial products or manage liquidity of their lightning channels. Boltz Swaps are atomic and thus non-custodial - users can always rest assured to be in full control of their funds throughout the entire flow of a swap.
 
-## API
+## Boltz API
 
-If you are looking to integrate Boltz Swaps into your app, check out our API Docs:
+If you are looking to integrate Boltz Swaps into your app, check out our Backend API Docs:
 
 {% content-ref url="http://127.0.0.1:5000/o/SPM8mTvJyc7OIzGL3HD7/s/PMhQLVTJBT4vGTYh1Rab/" %}
 [API: Boltz Backend](http://127.0.0.1:5000/o/SPM8mTvJyc7OIzGL3HD7/s/PMhQLVTJBT4vGTYh1Rab/)
 {% endcontent-ref %}
 
-## Boltz LND
+## Boltz Web App
 
-If you are looking to use Boltz to manage liquidity of your LND node, check out our Boltz LND Docs:
-
-{% content-ref url="http://127.0.0.1:5000/o/SPM8mTvJyc7OIzGL3HD7/s/ltqiap1Tem0DOTru1DRG/" %}
-[Client: Boltz LND](http://127.0.0.1:5000/o/SPM8mTvJyc7OIzGL3HD7/s/ltqiap1Tem0DOTru1DRG/)
-{% endcontent-ref %}
-
-Web App
-
-If you are looking to run the official Boltz Web App served at boltz.exchange yourself, check out our Web App Docs:
+If you are looking to run the official Boltz Web App served at [boltz.exchange](https://boltz.exchange/) yourself, check out our Boltz Web App Docs:
 
 {% content-ref url="http://127.0.0.1:5000/o/SPM8mTvJyc7OIzGL3HD7/s/2k9N6sjTBQrfNHYYccli/" %}
 [Client: Boltz Web App](http://127.0.0.1:5000/o/SPM8mTvJyc7OIzGL3HD7/s/2k9N6sjTBQrfNHYYccli/)
+{% endcontent-ref %}
+
+## Boltz LND
+
+If you are looking to use Boltz to manage liquidity of your [LND](https://github.com/lightningnetwork/lnd) node, check out our Boltz LND Docs&#x20;
+
+{% content-ref url="http://127.0.0.1:5000/o/SPM8mTvJyc7OIzGL3HD7/s/ltqiap1Tem0DOTru1DRG/" %}
+[Client: Boltz LND](http://127.0.0.1:5000/o/SPM8mTvJyc7OIzGL3HD7/s/ltqiap1Tem0DOTru1DRG/)
 {% endcontent-ref %}
 
 ## Resources
