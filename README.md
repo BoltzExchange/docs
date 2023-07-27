@@ -6,7 +6,7 @@ cover: .gitbook/assets/Screenshot from 2023-07-27 15-23-18.png
 coverY: 0
 ---
 
-# Welcome to the Home of Boltz Docs! ✨
+# ✨ Welcome to the Home of Boltz Docs
 
 ## What is Boltz
 
