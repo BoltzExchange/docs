@@ -20,20 +20,20 @@ If you are looking to integrate Boltz Swaps into your app, check out our Backend
 [API: Boltz Backend](http://127.0.0.1:5000/o/SPM8mTvJyc7OIzGL3HD7/s/PMhQLVTJBT4vGTYh1Rab/)
 {% endcontent-ref %}
 
-## Boltz Web App
-
-If you are looking to run the official Boltz Web App served at [boltz.exchange](https://boltz.exchange/) yourself, check out our Boltz Web App Docs:
-
-{% content-ref url="http://127.0.0.1:5000/o/SPM8mTvJyc7OIzGL3HD7/s/2k9N6sjTBQrfNHYYccli/" %}
-[Client: Boltz Web App](http://127.0.0.1:5000/o/SPM8mTvJyc7OIzGL3HD7/s/2k9N6sjTBQrfNHYYccli/)
-{% endcontent-ref %}
-
 ## Boltz LND
 
 If you are looking to use Boltz to conveniently manage liquidity of your [LND](https://github.com/lightningnetwork/lnd) node, check out our Boltz LND Docs:
 
 {% content-ref url="http://127.0.0.1:5000/o/SPM8mTvJyc7OIzGL3HD7/s/ltqiap1Tem0DOTru1DRG/" %}
 [Client: Boltz LND](http://127.0.0.1:5000/o/SPM8mTvJyc7OIzGL3HD7/s/ltqiap1Tem0DOTru1DRG/)
+{% endcontent-ref %}
+
+## Boltz Web App
+
+If you are looking to run the official Boltz Web App served at [boltz.exchange](https://boltz.exchange/) yourself, check out our Boltz Web App Docs:
+
+{% content-ref url="http://127.0.0.1:5000/o/SPM8mTvJyc7OIzGL3HD7/s/2k9N6sjTBQrfNHYYccli/" %}
+[Client: Boltz Web App](http://127.0.0.1:5000/o/SPM8mTvJyc7OIzGL3HD7/s/2k9N6sjTBQrfNHYYccli/)
 {% endcontent-ref %}
 
 ## Resources
