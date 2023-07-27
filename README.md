@@ -6,9 +6,9 @@ cover: .gitbook/assets/Screenshot from 2023-07-27 15-23-18.png
 coverY: 0
 ---
 
-# ✨ Welcome to the Home of Boltz Docs
+# 👋 Welcome to the Home of Boltz Docs
 
-## What is Boltz
+## What is Boltz?
 
 Boltz is a privacy first, non-custodial bitcoin exchange built to bridge different layers of Bitcoin like the [Liquid](https://liquid.net/) and [Lightning Network](https://lightning.network/). With Boltz, users can seamlessly swap their Bitcoin between different layers to e.g. use advanced financial products or manage liquidity of their lightning channels. Boltz Swaps are atomic and thus non-custodial - users can always rest assured to be in full control of their funds throughout the entire flow of a swap.
 
@@ -30,7 +30,7 @@ If you are looking to run the official Boltz Web App served at [boltz.exchange](
 
 ## Boltz LND
 
-If you are looking to use Boltz to manage liquidity of your [LND](https://github.com/lightningnetwork/lnd) node, check out our Boltz LND Docs:&#x20;
+If you are looking to use Boltz to conveniently manage liquidity of your [LND](https://github.com/lightningnetwork/lnd) node, check out our Boltz LND Docs:
 
 {% content-ref url="http://127.0.0.1:5000/o/SPM8mTvJyc7OIzGL3HD7/s/ltqiap1Tem0DOTru1DRG/" %}
 [Client: Boltz LND](http://127.0.0.1:5000/o/SPM8mTvJyc7OIzGL3HD7/s/ltqiap1Tem0DOTru1DRG/)
