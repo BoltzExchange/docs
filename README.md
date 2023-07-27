@@ -32,8 +32,8 @@ Web App
 
 If you are looking to run the official Boltz Web App served at boltz.exchange yourself, check out our Web App Docs:
 
-{% content-ref url="http://127.0.0.1:5000/s/2k9N6sjTBQrfNHYYccli/" %}
-[Boltz Web App](http://127.0.0.1:5000/s/2k9N6sjTBQrfNHYYccli/)
+{% content-ref url="http://127.0.0.1:5000/o/SPM8mTvJyc7OIzGL3HD7/s/2k9N6sjTBQrfNHYYccli/" %}
+[Client: Boltz Web App](http://127.0.0.1:5000/o/SPM8mTvJyc7OIzGL3HD7/s/2k9N6sjTBQrfNHYYccli/)
 {% endcontent-ref %}
 
 ## Resources
