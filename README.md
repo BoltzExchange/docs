@@ -14,7 +14,7 @@ Boltz is a privacy first, non-custodial bitcoin exchange built to bridge differe
 
 ## Boltz API
 
-If you are looking to integrate Boltz Swaps into your app, check out our Backend API Docs:
+If you are looking to integrate Boltz Swaps into your app, check out our Boltz Backend API Docs:
 
 {% content-ref url="http://127.0.0.1:5000/o/SPM8mTvJyc7OIzGL3HD7/s/PMhQLVTJBT4vGTYh1Rab/" %}
 [API: Boltz Backend](http://127.0.0.1:5000/o/SPM8mTvJyc7OIzGL3HD7/s/PMhQLVTJBT4vGTYh1Rab/)
