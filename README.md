@@ -10,11 +10,11 @@ coverY: 0
 
 ## What is Boltz?
 
-Boltz is a privacy first, non-custodial bitcoin exchange built to bridge different layers of Bitcoin like the [Liquid](https://liquid.net/) and [Lightning Network](https://lightning.network/). With Boltz, users can seamlessly swap their Bitcoin between layers to e.g. use advanced financial products or manage liquidity of their lightning channels. Boltz Swaps are atomic and thus non-custodial - users can always rest assured to be in full control of their funds throughout the entire flow of a swap.
+Boltz is a privacy first, non-custodial bitcoin exchange built to bridge different layers of Bitcoin like the [Liquid](https://liquid.net/) and [Lightning Network](https://lightning.network/). With Boltz users can seamlessly swap their bitcoin between layers, to e.g. use advanced financial products or manage liquidity of their lightning channels. Boltz Swaps are non-custodial, which means users can always rest assured to be in full control of their bitcoin throughout the entire flow of a swap.
 
 ## Boltz API
 
-If you are looking to integrate Boltz Swaps into your app, check out our Boltz Backend API Docs:
+If you are looking to integrate Boltz Swaps into your application, check out our Boltz API Docs:
 
 {% content-ref url="http://127.0.0.1:5000/o/SPM8mTvJyc7OIzGL3HD7/s/PMhQLVTJBT4vGTYh1Rab/" %}
 [API: Boltz Backend](http://127.0.0.1:5000/o/SPM8mTvJyc7OIzGL3HD7/s/PMhQLVTJBT4vGTYh1Rab/)
