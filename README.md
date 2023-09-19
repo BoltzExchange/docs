@@ -2,7 +2,7 @@
 description: >-
   This documentation is written for anyone looking to learn about Boltz, how to
   integrate Boltz Swaps via the public API or use Boltz with one of the clients
-cover: .gitbook/assets/Screenshot from 2023-07-27 15-23-18.png
+cover: .gitbook/assets/image1.png
 coverY: 0
 ---
 
