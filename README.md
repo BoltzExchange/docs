@@ -16,24 +16,24 @@ Boltz is a privacy first, non-custodial bitcoin exchange built to bridge differe
 
 If you are looking to integrate Boltz Swaps into your application, check out our Boltz API Docs:
 
-{% content-ref url="http://127.0.0.1:5000/o/SPM8mTvJyc7OIzGL3HD7/s/PMhQLVTJBT4vGTYh1Rab/" %}
-[API: Boltz Backend](http://127.0.0.1:5000/o/SPM8mTvJyc7OIzGL3HD7/s/PMhQLVTJBT4vGTYh1Rab/)
+{% content-ref url="https://app.gitbook.com/o/SPM8mTvJyc7OIzGL3HD7/s/PMhQLVTJBT4vGTYh1Rab/" %}
+[API: Boltz Backend](https://app.gitbook.com/o/SPM8mTvJyc7OIzGL3HD7/s/PMhQLVTJBT4vGTYh1Rab/)
 {% endcontent-ref %}
 
-## Boltz LND
+## Boltz Client
 
-If you are looking to use Boltz to conveniently manage liquidity of your [LND](https://github.com/lightningnetwork/lnd) node, check out our Boltz LND Docs:
+If you are looking to use Boltz to conveniently manage liquidity of your [CLN](https://github.com/ElementsProject/lightning/) or [LND](https://github.com/lightningnetwork/lnd/) nodes, check out our Boltz Client Docs:
 
-{% content-ref url="http://127.0.0.1:5000/o/SPM8mTvJyc7OIzGL3HD7/s/ltqiap1Tem0DOTru1DRG/" %}
-[Client: Boltz LND](http://127.0.0.1:5000/o/SPM8mTvJyc7OIzGL3HD7/s/ltqiap1Tem0DOTru1DRG/)
+{% content-ref url="https://app.gitbook.com/o/SPM8mTvJyc7OIzGL3HD7/s/ltqiap1Tem0DOTru1DRG/" %}
+[Client: Boltz Client](https://app.gitbook.com/o/SPM8mTvJyc7OIzGL3HD7/s/ltqiap1Tem0DOTru1DRG/)
 {% endcontent-ref %}
 
 ## Boltz Web App
 
 If you are a self-sovereign individual looking to run Boltz Web App yourself from source instead of using [boltz.exchange](https://boltz.exchange/), check out our Boltz Web App Docs:
 
-{% content-ref url="http://127.0.0.1:5000/o/SPM8mTvJyc7OIzGL3HD7/s/2k9N6sjTBQrfNHYYccli/" %}
-[Client: Boltz Web App](http://127.0.0.1:5000/o/SPM8mTvJyc7OIzGL3HD7/s/2k9N6sjTBQrfNHYYccli/)
+{% content-ref url="https://app.gitbook.com/o/SPM8mTvJyc7OIzGL3HD7/s/2k9N6sjTBQrfNHYYccli/" %}
+[Client: Boltz Web App](https://app.gitbook.com/o/SPM8mTvJyc7OIzGL3HD7/s/2k9N6sjTBQrfNHYYccli/)
 {% endcontent-ref %}
 
 ## Resources
