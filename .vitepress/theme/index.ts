@@ -38,7 +38,7 @@ export default {
         path = "";
       }
 
-      if (to === "/v/api.html") {
+      if (to.includes("/v/api")) {
         redirectTo(redirects[`/${subdomain}/${path.replace(".html", "")}`]);
         return false;
       }
