@@ -11,18 +11,22 @@ features:
   - title: 👨‍💻 Boltz API
     details: If you are looking to integrate Boltz Swaps into your application, then check out our Boltz API docs
     link: https://api.docs.boltz.exchange
+    target: _self
 
   - title: 🤖 Boltz Client
     details: If you are looking to use Boltz to conveniently manage liquidity of your CLN or LND nodes, then check out our Boltz Client docs
     link: https://client.docs.boltz.exchange
+    target: _self
 
   - title: 💻 Boltz Web App
     details: If you are a self-sovereign individual looking to run Boltz Web App yourself from source instead of using boltz.exchange, then check out our Boltz Web App docs
     link: https://web.docs.boltz.exchange
+    target: _self
 
   - title: 💚 Boltz BTCPay Plugin
     details: If you are a merchant looking to accept Lightning payments in an incredibly simple, yet non-custodial way then check out our Boltz BTCPay Plugin docs
     link: https://btcpay.docs.boltz.exchange
+    target: _self
 ---
 
 ## Resources
