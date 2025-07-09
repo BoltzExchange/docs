@@ -5,15 +5,12 @@ const docsRoot = "https://docs.boltz.exchange";
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "Boltz Docs",
-  description: "Boltz Docs",
+  description: "Boltz Docs Home",
   head: [
     ['link', { rel: 'icon', href: '/assets/logo.svg' }],
   ],
   themeConfig: {
     logo: "/assets/logo.svg",
-    search: {
-      provider: "local",
-    },
     socialLinks: [
       {
         icon: "github",
@@ -21,6 +18,7 @@ export default defineConfig({
       },
     ],
   },
+  
   // Ignore dead links to localhost
   ignoreDeadLinks: [/https?:\/\/localhost/],
 });
