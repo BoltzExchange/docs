@@ -7,14 +7,6 @@ hero:
   text: "Documentation"
   tagline: This documentation is written for anyone looking to learn about Boltz, how to integrate Boltz Swaps via the public API or use Boltz with one of the clients
 
-  actions:
-    - theme: brand
-      text: REST API
-      link: https://api.docs.boltz.exchange/api-v2.html
-    - theme: alt
-      text: Client setup
-      link: https://client.docs.boltz.exchange/#installation
-
 features:
   - title: 👨‍💻 Boltz API
     details: If you are looking to integrate Boltz Swaps into your application, then check out our Boltz API docs
