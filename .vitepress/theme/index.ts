@@ -10,14 +10,14 @@ import "./style.css";
  */
 const redirects = {
   "/api": "https://api.docs.boltz.exchange",
-  "/v/api": "https://api.docs.boltz.exchange",
   "/web-app": "https://web.docs.boltz.exchange",
-  "/v/web-app": "https://web.docs.boltz.exchange",
   "/boltz-client": "https://client.docs.boltz.exchange",
-  "/v/boltz-client": "https://client.docs.boltz.exchange",
   "/boltz-btcpay-plugin": "https://btcpay.docs.boltz.exchange",
-  "/v/boltz-btcpay-plugin": "https://btcpay.docs.boltz.exchange",
 };
+
+Object.entries(redirects).forEach(([from, to]) => {
+  redirects[`/v${from}`] = to;
+});
 
 const redirectTo = (to: string) => {
   setTimeout(() => {
