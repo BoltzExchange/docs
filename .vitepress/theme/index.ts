@@ -8,16 +8,25 @@ import "./style.css";
 /**
  * Redirects old paths to new paths
  */
-const redirects = {
-  "/api": "https://api.docs.boltz.exchange",
-  "/v/api": "https://api.docs.boltz.exchange",
-  "/web-app": "https://web.docs.boltz.exchange",
-  "/v/web-app": "https://web.docs.boltz.exchange",
-  "/boltz-client": "https://client.docs.boltz.exchange",
-  "/v/boltz-client": "https://client.docs.boltz.exchange",
-  "/boltz-btcpay-plugin": "https://btcpay.docs.boltz.exchange",
-  "/v/boltz-btcpay-plugin": "https://btcpay.docs.boltz.exchange",
-};
+const redirects = (() => {
+  const baseRedirects = {
+    "/api": "https://api.docs.boltz.exchange",
+    "/web-app": "https://web.docs.boltz.exchange",
+    "/boltz-client": "https://client.docs.boltz.exchange",
+    "/boltz-btcpay-plugin": "https://btcpay.docs.boltz.exchange",
+  };
+
+  const finalRedirects: Record<string, string> = {};
+
+  for (const [fromPath, toUrl] of Object.entries(baseRedirects)) {
+    finalRedirects[fromPath] = toUrl;
+    finalRedirects[`${fromPath}/`] = toUrl;
+    finalRedirects[`/v${fromPath}`] = toUrl;
+    finalRedirects[`/v${fromPath}/`] = toUrl;
+  }
+
+  return finalRedirects;
+})();
 
 const redirectTo = (to: string) => {
   setTimeout(() => {
@@ -34,23 +43,15 @@ export default {
   },
   enhanceApp({ router }) {
     router.onBeforePageLoad = (to: string) => {
-      let [_, subdomain, path] = to.split("/");
+      const cleanPath = to.replace(/\.html$/, "");
 
-      if (!path) {
-        subdomain = subdomain.replace(".html", "");
-        path = "";
-      }
+      const destinationUrl = redirects[cleanPath];
 
-      if (to.includes("/v/api")) {
-        redirectTo(redirects[`/${subdomain}/${path.replace(".html", "")}`]);
-        return false;
-      }
+      if (destinationUrl) {
+        if (typeof window !== "undefined") {
+          window.location.href = destinationUrl;
+        }
 
-      const basePath = redirects[`/${subdomain}`];
-      if (basePath) {
-        setTimeout(() => {
-          window.location.href = `${basePath}/${path}`;
-        });
         return false;
       }
 
