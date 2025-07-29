@@ -6,23 +6,23 @@ import { h } from "vue";
 import "./style.css";
 
 /**
- * Redirects old paths to new paths
+ * Redirects old paths to new urls
  */
-const redirects = {
+const baseRedirects = {
   "/api": "https://api.docs.boltz.exchange",
-  "/v/api": "https://api.docs.boltz.exchange",
   "/web-app": "https://web.docs.boltz.exchange",
-  "/v/web-app": "https://web.docs.boltz.exchange",
   "/boltz-client": "https://client.docs.boltz.exchange",
-  "/v/boltz-client": "https://client.docs.boltz.exchange",
   "/boltz-btcpay-plugin": "https://btcpay.docs.boltz.exchange",
-  "/v/boltz-btcpay-plugin": "https://btcpay.docs.boltz.exchange",
 };
 
+const redirectPrefixes = Object.keys(baseRedirects)
+  .flatMap(key => [key, `/v${key}`])
+  .sort((a, b) => b.length - a.length);
+
 const redirectTo = (to: string) => {
-  setTimeout(() => {
+  if (typeof window !== "undefined") {
     window.location.href = to;
-  });
+  }
 };
 
 export default {
@@ -34,24 +34,31 @@ export default {
   },
   enhanceApp({ router }) {
     router.onBeforePageLoad = (to: string) => {
-      let [_, subdomain, path] = to.split("/");
+      const cleanPath = to.replace(/\.html$/, "");
+      
+      const matchedPrefix = redirectPrefixes.find(prefix => {
+        if (!cleanPath.startsWith(prefix)) {
+          return false;
+        }
 
-      if (!path) {
-        subdomain = subdomain.replace(".html", "");
-        path = "";
-      }
+        const nextChar = cleanPath[prefix.length];
+        
+        return nextChar === undefined || nextChar === '/';
+      });
 
-      if (to.includes("/v/api")) {
-        redirectTo(redirects[`/${subdomain}/${path.replace(".html", "")}`]);
-        return false;
-      }
+      if (matchedPrefix) {
+        const baseKey = matchedPrefix.startsWith('/v/')
+          ? matchedPrefix.substring(2)
+          : matchedPrefix;
 
-      const basePath = redirects[`/${subdomain}`];
-      if (basePath) {
-        setTimeout(() => {
-          window.location.href = `${basePath}/${path}`;
-        });
-        return false;
+        const destinationUrl = baseRedirects[baseKey];
+
+        if (destinationUrl) {
+          if (typeof window !== "undefined") {
+            window.location.href = destinationUrl;
+          }
+          return false;
+        }
       }
 
       return true;
