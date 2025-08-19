@@ -47,25 +47,61 @@
 
 :root {
   --vp-home-hero-name-color: transparent;
+  
+  /* Light mode hero name and glow */
+  --vp-home-hero-name-background: -webkit-linear-gradient(120deg,
+      #16596b 30%,
+      #081E36);
+  --vp-home-hero-image-background-image: linear-gradient(0deg,
+      rgba(8, 30, 54, 1) 50%,
+      rgba(8, 30, 54, 0.1) 50%);
+  --vp-home-hero-image-filter: blur(32px);
+}
+
+/* Dark mode hero name and glow */
+.dark:root {
   --vp-home-hero-name-background: -webkit-linear-gradient(120deg,
       #bba10e 30%,
       #E6C826);
-
-  --vp-home-hero-image-background-image: linear-gradient(-45deg,
-      #bba10e 50%,
-      #E6C826 50%);
-  --vp-home-hero-image-filter: blur(44px);
+  --vp-home-hero-image-background-image: linear-gradient(0deg,
+      rgba(187, 161, 14, 0.3) 50%,
+      rgba(230, 200, 38, 0.3) 50%);
+      --vp-home-hero-image-filter: blur(38px);
 }
 
 @media (min-width: 640px) {
   :root {
-    --vp-home-hero-image-filter: blur(56px);
+    /* Light mode glow for tablet */
+    --vp-home-hero-image-background-image: linear-gradient(0deg,
+        rgba(8, 30, 54, 0.9) 50%,
+        rgba(8, 30, 54, 0.1) 50%);
+    --vp-home-hero-image-filter: blur(44px);
+  }
+  
+  .dark:root {
+    /* Dark mode glow for tablet */
+    --vp-home-hero-image-background-image: linear-gradient(0deg,
+        rgba(187, 161, 14, 0.2) 50%,
+        rgba(230, 200, 38, 0.2) 50%);
+    --vp-home-hero-image-filter: blur(48px); 
   }
 }
 
 @media (min-width: 960px) {
   :root {
+    /* Light mode glow for desktop */
+    --vp-home-hero-image-background-image: linear-gradient(0deg,
+        rgba(8, 30, 54, 0.9) 50%,
+        rgba(8, 30, 54, 0.1) 50%);
     --vp-home-hero-image-filter: blur(68px);
+  }
+  
+  .dark:root {
+    /* Dark mode glow for desktop */
+    --vp-home-hero-image-background-image: linear-gradient(0deg,
+        rgba(187, 161, 14, 0.2) 50%,
+        rgba(230, 200, 38, 0.2) 50%);
+    --vp-home-hero-image-filter: blur(54px);
   }
 }
 

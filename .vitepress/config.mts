@@ -7,10 +7,10 @@ export default defineConfig({
   title: "Boltz Docs",
   description: "Boltz Docs Home",
   head: [
-    ['link', { rel: 'icon', href: '/assets/logo.svg' }],
+    ['link', { rel: 'icon', href: '/logo.svg' }],
   ],
   themeConfig: {
-    logo: "/assets/logo.svg",
+    logo: '/logo.svg',
     socialLinks: [
       {
         icon: "github",
