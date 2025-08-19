@@ -6,6 +6,11 @@ hero:
   name: "Boltz"
   text: "Documentation"
   tagline: This documentation is written for anyone looking to learn about Boltz, how to integrate Boltz Swaps via the public API or use Boltz with one of the clients
+  image:
+    src: /logo.svg
+    alt: Boltz Logo
+    width: 180
+    height: 180
 
 features:
   - title: 👨‍💻 Boltz API
