@@ -1,6 +1,7 @@
 // https://vitepress.dev/guide/custom-theme
 import type { Theme } from "vitepress";
 import DefaultTheme from "vitepress/theme";
+import Layout from "./Layout.vue";
 
 import "./style.css";
 
@@ -26,6 +27,7 @@ const redirectTo = (to: string) => {
 
 export default {
   extends: DefaultTheme,
+  Layout,
   enhanceApp({ router }) {
     router.onBeforePageLoad = (to: string) => {
       const cleanPath = to.replace(/\.html$/, "");

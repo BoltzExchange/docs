@@ -117,9 +117,28 @@
 }
 
 /**
- * Component: Algolia
+ * Component: Ask AI Integration
  * -------------------------------------------------------------------------- */
 
-.DocSearch {
-  --docsearch-primary-color: var(--vp-c-brand-1) !important;
+.ask-ai {
+  display: flex;
+  align-items: center;
+}
+
+/* Add separator line before Ask AI button */
+.ask-ai::before {
+  content: '';
+  display: block;
+  width: 1px;
+  height: 24px;
+  background-color: var(--vp-c-divider);
+  margin-right: 6px;
+  margin-left: 12px;
+}
+
+/* Hide separator on mobile when other items move to hamburger menu */
+@media (max-width: 768px) {
+  .ask-ai::before {
+    display: none;
+  }
 }
